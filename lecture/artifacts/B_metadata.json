@@ -8,20 +8,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_value",
+						"name": "_age",
 						"type": "uint256"
 					}
 				],
-				"name": "change_A",
+				"name": "change",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "get_a",
+				"name": "get",
 				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -45,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec8.sol": "B"
+			"lecture/lec9.sol": "B"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec8.sol": {
-			"keccak256": "0x17d1e77447372e1eaa36f9860825fe430c355ff0c7c08de5f6d6dff3b60c2b82",
+		"lecture/lec9.sol": {
+			"keccak256": "0x90fb535d8a0a32de8491aecfcea66107d9101362f36ab70cb61220ab22ef5dae",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://769cda4141a40176470eab66f78e15a93f14123723c1ff2171498c9b46a74a0c",
-				"dweb:/ipfs/QmbcbTMptcTCEekchbUrvXwECcqorG6LLGnFsZNoStT1KT"
+				"bzz-raw://accc34bd6afb0aa6cf9265eb4583c91bf478e25cefee3bcfbcc222c7d73d1dd3",
+				"dweb:/ipfs/QmW3u5hvFzGoXmtvKznoA5ZQ61udJ1FVPmpuujR8WiDKef"
 			]
 		}
 	},
