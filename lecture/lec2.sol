@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 2강 - Data Type
 contract lec2 {
     // data type
     // boolean, bytes, address, uint
