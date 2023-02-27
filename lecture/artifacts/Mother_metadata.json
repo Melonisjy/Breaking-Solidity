@@ -7,32 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "fatherMoney",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFatherName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getMoney",
 				"outputs": [
 					{
@@ -84,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec12.sol": "Son"
+			"lecture/lec12.sol": "Mother"
 		},
 		"evmVersion": "london",
 		"libraries": {},

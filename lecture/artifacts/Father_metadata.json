@@ -6,58 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_givenName",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "familyName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFamilyName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getGivenName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getMoney",
+				"name": "fatherMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -70,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "givenName",
+				"name": "getFatherName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -78,12 +28,12 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "money",
+				"name": "getMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -108,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec10.sol": "Father"
+			"lecture/lec12.sol": "Father"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -122,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec10.sol": {
-			"keccak256": "0x12dd5e16aa4f1ed30204fa6c3555f0aedb6b7d753be31972b6d611e7b7835a59",
+		"lecture/lec12.sol": {
+			"keccak256": "0x5d6b8bdb5db04ad74f5e76d83240305d57bcec8e4377297f98963c66de26669a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://94ee644f2c0a42b99c42c01d63c278313cbd0651c104bd38395072e47bbbbbc2",
-				"dweb:/ipfs/QmQgqkG9Xb1sBMoFQutMNDSN3qSaMRkcjttCyTXE7BKktT"
+				"bzz-raw://b4daadd194bcf98ec81b55c8c37423689018c7a2e97cbd7a37ec86f290af2ebe",
+				"dweb:/ipfs/QmYqdtNMbfXhKCFDKzMEFvv4Kdsdj1LyYzQ5JvxDpBhof5"
 			]
 		}
 	},
