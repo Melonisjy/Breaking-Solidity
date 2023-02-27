@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 5강 - Function 2(public, private, internal, external)
 contract lec5 {
     /*
     function 이름 () public { // (public, private, internal, external 중 변경 가능)
