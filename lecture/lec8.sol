@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 8강 - instance 1 - 정의
 contract A {
     uint256 public a = 5;
 
