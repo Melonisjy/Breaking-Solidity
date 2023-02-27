@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 10강 - 상속1 - 정의
 contract Father {
     string public familyName = "Kim";
     string public givenName = "Jung";
