@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 11강 - 상속2 - overriding
 contract Father {
     string public familyName = "Kim";
     string public givenName = "Jung";
