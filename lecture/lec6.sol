@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
+// 6강 - View, Pure
 contract lec6 {
     /*
     view: function 밖의 변수들을 읽을 수 있으나 변경이 불가능함.
