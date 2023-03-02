@@ -28,7 +28,7 @@
 						"type": "string"
 					}
 				],
-				"name": "SonName",
+				"name": "MotherName",
 				"type": "event"
 			},
 			{
@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec15.sol": "Son"
+			"lecture/lec16.sol": "Son"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec15.sol": {
-			"keccak256": "0x12ec1bdfd615bac7bab7fcbb7141b704607979d04f365fc1c3279bd72b7ff262",
+		"lecture/lec16.sol": {
+			"keccak256": "0xc6ac89703eb38e7c85178d15b33526311c01e4ce85707361a19427bac07155c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4ccf8c20c4df616d9f57a6c79d277288bcd5a18051124a92c06103db92b66e78",
-				"dweb:/ipfs/QmaVbF8cVfJXWXofbBSbeenXKqHe9AqunXQrGVr36QimDT"
+				"bzz-raw://8934956d38be3da545dc3565faf0e43de7d4352726b6c88397cea33c9b09f4d0",
+				"dweb:/ipfs/QmT4uPds88DviUfHPALJrVem8uujRU1vJ66SteXJeBeQCo"
 			]
 		}
 	},

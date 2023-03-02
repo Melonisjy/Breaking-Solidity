@@ -1,47 +1,28 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getMoney",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getMotherName",
-				"outputs": [
-					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "name",
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "MotherName",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "motherMoney",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "who",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/lec12.sol": "Mother"
+			"lecture/lec16.sol": "Mother"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/lec12.sol": {
-			"keccak256": "0x5d6b8bdb5db04ad74f5e76d83240305d57bcec8e4377297f98963c66de26669a",
+		"lecture/lec16.sol": {
+			"keccak256": "0xc6ac89703eb38e7c85178d15b33526311c01e4ce85707361a19427bac07155c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b4daadd194bcf98ec81b55c8c37423689018c7a2e97cbd7a37ec86f290af2ebe",
-				"dweb:/ipfs/QmYqdtNMbfXhKCFDKzMEFvv4Kdsdj1LyYzQ5JvxDpBhof5"
+				"bzz-raw://8934956d38be3da545dc3565faf0e43de7d4352726b6c88397cea33c9b09f4d0",
+				"dweb:/ipfs/QmT4uPds88DviUfHPALJrVem8uujRU1vJ66SteXJeBeQCo"
 			]
 		}
 	},
