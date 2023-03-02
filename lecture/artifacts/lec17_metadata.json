@@ -145,11 +145,11 @@
 	},
 	"sources": {
 		"lecture/lec17.sol": {
-			"keccak256": "0xf01da43b1d50c40147f424aca491baade9e4db62a438e869833b771c471eae81",
+			"keccak256": "0x02c769ed0a23a7d45fc6cb28b996ad1f60dbe9a11a703e91557a55a5cad3d59e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://197499a836fd2bbf147e54d9fbaee780efceb03fdf697bc0891f6160bd38baa7",
-				"dweb:/ipfs/QmekZE5RQU3zSqndVshYKAwAdWS5aVx7xVe4fHYi9Czx5H"
+				"bzz-raw://21c4cc188807d88391ea7673e2df43b849a80bc8356958c4f4c7f87efb83d27a",
+				"dweb:/ipfs/QmTHzu2omiSvRukF7GaSroaXG5qi1Mu92F8djrpC4osh7J"
 			]
 		}
 	},
