@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.8.0 < 0.9.0;
 
+// 17강 - Mapping
 contract lec17 {
 
     mapping(uint256 => uint256) private ageList;
